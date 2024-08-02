@@ -7,9 +7,9 @@ print('''Welcome to SuperTerminal! For quick navigation:
 User_prompt = input("$ ")
 
 while User_prompt.lower() != "q":
-    final_command = Command_Generator(User_prompt)
-    print(f"Command: {final_command}")
+    Terminal_Command = Command_Generator(User_prompt)
+    print(f"Command: {Terminal_Command}")
 
-    system(final_command)
+    system(Terminal_Command)
 
     User_prompt = input("$ ")
