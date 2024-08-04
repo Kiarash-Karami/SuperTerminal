@@ -1,8 +1,6 @@
 from os import system
 
 def System_Run(Command):
-    response = system(Command)
-    if response == 0:
-        system(Command)
-    elif response == 256:
+    response = system(Command).bit_count()
+    if response == 1:
         system(f"sudo {Command}")
