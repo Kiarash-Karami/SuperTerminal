@@ -4,9 +4,9 @@ from error_handler import Client_Error
 # replace 'your_api_key' with your Groq actual API key
 client = Groq(api_key='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')
 
-def Command_Generator(Prompt):
+def Command_corrector(Prompt):
 
-    System_Prompt = "You are a Mac terminal expert who only provides the exact command for a given task. Do not provide any explanations or additional information, only the command. Make sure your response is in the format of text."
+    System_Prompt = "Provide precise, failure-based Mac terminal command without explanations; only respond with the command in text format."
 
     completion = client.chat.completions.create(
         model="llama3-70b-8192",
