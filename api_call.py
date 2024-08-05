@@ -1,4 +1,4 @@
-from groq import Client, Groq
+from groq import Groq
 from error_handler import Client_Error
 
 # replace 'your_api_key' with your Groq actual API key
