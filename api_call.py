@@ -2,7 +2,7 @@ from groq import Client, Groq
 from error_handler import Client_Error
 
 # replace 'your_api_key' with your Groq actual API key
-client = Groq(api_key='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')
+client = Groq(api_key='your_api_key')
 
 def Command_Generator(Prompt):
 
