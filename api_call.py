@@ -4,6 +4,7 @@ from error_handler import Client_Error
 # replace 'your_api_key' with your Groq actual API key
 client = Groq(api_key='your_api_key')
 
+
 def Command_Generator(Prompt):
 
     System_Prompt = "You are a Mac terminal expert who only provides the exact command for a given task. Do not provide any explanations or additional information, only the command. Make sure your response is in the format of text."
