@@ -1,0 +1,15 @@
+README.md
+setup.py
+SuperTerminal/__init__.py
+SuperTerminal/api_call.py
+SuperTerminal/const_var.py
+SuperTerminal/error_handler.py
+SuperTerminal/failed_command.py
+SuperTerminal/main.py
+SuperTerminal/system_run.py
+SuperTerminal.egg-info/PKG-INFO
+SuperTerminal.egg-info/SOURCES.txt
+SuperTerminal.egg-info/dependency_links.txt
+SuperTerminal.egg-info/entry_points.txt
+SuperTerminal.egg-info/requires.txt
+SuperTerminal.egg-info/top_level.txt

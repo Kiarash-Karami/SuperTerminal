@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: SuperTerminal
+Version: 0.1.1
+Summary: Natural Language to Terminal Command Translator.
+Home-page: https://github.com/Kiarash-Karami/SuperTerminal
+Author: Kiarash Karami
+Author-email: Kiarash_Karami@outlook.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+SuperTerminal is a command-line utility that translates natural language input into terminal commands. It simplifies the user experience by allowing users to interact with their terminal using everyday language instead of complex commands.
