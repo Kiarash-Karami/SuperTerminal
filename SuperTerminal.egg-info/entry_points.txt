@@ -1,2 +1,2 @@
 [console_scripts]
-SuperTerminal = SuperTerminal.cli:Main_Run
+SuperTerminal = SuperTerminal.main:main

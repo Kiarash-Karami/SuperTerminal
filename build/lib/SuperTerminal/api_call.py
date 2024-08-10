@@ -1,12 +1,13 @@
+import platform
 from groq import Groq
-from error_handler import Client_Error
+from .error_handler import Client_Error
 
 # replace 'your_api_key' with your Groq actual API key
 client = Groq(api_key='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')
 
 def Command_Generator(Prompt):
 
-    System_Prompt = "You are a Mac terminal expert who only provides the exact command for a given task. Do not provide any explanations or additional information, only the command. Make sure your response is in the format of text."
+    System_Prompt = f"You are a {str(platform.platform())} terminal expert who only provides the exact command for a given task. Do not provide any explanations or additional information, only the command. Make sure your response is in the format of text."
 
     completion = client.chat.completions.create(
         model="llama3-70b-8192",

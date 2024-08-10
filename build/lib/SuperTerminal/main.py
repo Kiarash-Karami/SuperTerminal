@@ -1,10 +1,11 @@
-import subprocess
-from api_call import Command_Generator
-from system_run import System_Run
-from const_var import Color
-from failed_command import Command_corrector
+def main():
+    import subprocess
+    from SuperTerminal.api_call import Command_Generator
+    from SuperTerminal.const_var import Color
+    from SuperTerminal.failed_command import Command_corrector
+    from SuperTerminal.system_run import System_Run
 
-def Main_Run():
+
 
     print('''Welcome to SuperTerminal!\n''')
 

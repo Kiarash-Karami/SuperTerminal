@@ -1,5 +1,5 @@
 from os import system
-from const_var import Color
+from .const_var import Color
 
 def System_Run(Command):
     response = system(Command).bit_count()
