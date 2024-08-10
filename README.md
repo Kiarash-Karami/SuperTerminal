@@ -13,11 +13,7 @@
 To install **SuperTerminal**, use pip:
 
 ```bash
-<<<<<<< HEAD
 pip install SuperTerminal
-=======
-pip install SuperTerminal==1.0.0
->>>>>>> origin/main
 ```
 
 ## Usage
@@ -31,7 +27,6 @@ After installing SuperTerminal, you can run it from your terminal. Follow these 
    ```bash
    SuperTerminal
    ```
-<<<<<<< HEAD
 
   ## Example Session
 
@@ -73,13 +68,5 @@ After installing SuperTerminal, you can run it from your terminal. Follow these 
 
   ## Contact
   For any questions or feedback, please contact us at [Kiarash_Karami@outlook.com](mailto:Kiarash_Karami@outlook.com).
-=======
-## Interact with SuperTerminal
 
-You will be prompted to enter a command. You can use natural language to describe what you want to do. For example:
-
-- To list files in the current directory, you can type:
-
-  ```text
-  list files
 >>>>>>> origin/main
