@@ -69,4 +69,3 @@ After installing SuperTerminal, you can run it from your terminal. Follow these 
   ## Contact
   For any questions or feedback, please contact us at [Kiarash_Karami@outlook.com](mailto:Kiarash_Karami@outlook.com).
 
->>>>>>> origin/main
